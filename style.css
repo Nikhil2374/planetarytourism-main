@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-image: url("./assets-2d/space.jpg");
+}
+body h1{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-bottom: 2px solid white;
+    color: aliceblue;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;   
+}
+.brand a{
+    text-decoration: none;
+}
+.tab{
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+}
+.tab-items{
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-top: 2px solid white;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.main-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.home-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.model-detail{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.model-detail p{
+    text-align: left;
+    padding: 10px;
+}
+.tile{
+    width: 25%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.392);
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.model-container{
+    height: 50%;
+    width: 50%;
+}
+model-viewer{
+    height: 500px;
+    width: 500px;
+    border-radius: 80%;
+    background-color:rgba(0, 0, 0, 0);
+}
+.mars{
+    background-image: url("./assets-2d/mars.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.jupiter{
+    background-image: url("./assets-2d/jupiter.jfif");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.venus{
+    background-image: url("./assets-2d/venus.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.saturn{
+    background-image: url("./assets-2d/saturn.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.earth{
+    background-image: url("./assets-2d/earth.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.neptune{
+    background-image: url("./assets-2d/neptune.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.mercury{
+    background-image: url("./assets-2d/mercury.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.uranus{
+    background-image: url("./assets-2d/uranus.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+p{
+    padding: 25px;
+    font-size: large;
+}
+.home-packages{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    text-wrap:balance;
+}
+.home-packages .tile{
+    font-size: 28px;
+    width: 100%;
+    margin: 10px;
+}
+.ptp{
+    background-image: url("./assets-2d/ptp.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ci{
+    background-image: url("./assets-2d/ci.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ft{
+    background-image: url("./assets-2d/ft.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
