@@ -26,10 +26,7 @@ This project emphasizes **UI/UX design in the space exploration domain**, aligni
 
 ---
 
-## 📸 Screenshots
-*(Add some screenshots of your hosted app here — e.g., home page, tour packages, itineraries, etc.)*
 
----
 
 ## 📂 Getting Started
 
